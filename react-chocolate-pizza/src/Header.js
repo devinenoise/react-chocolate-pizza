@@ -10,7 +10,7 @@ export default class Header extends Component {
             <img src= {this.props.logo} alt="logo"/>
               <span className = "delicious">Delicious</span>
               <br />
-              <h3>The best food blog on the web</h3>
+              <h3 id="delicious-subtitle">The best food blog on the web</h3>
           </div>
           <div>
             <img src= {this.props.fb} className="socials" alt="facebook" />

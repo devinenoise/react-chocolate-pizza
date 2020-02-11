@@ -37,7 +37,8 @@ header {
   font-family: 'Yellowtail', cursive;
   font-size: 35px;
   position: relative;
-  top: -10px; 
+  top: -10px;
+  left: -100px;
 }
 
 h2 {
@@ -50,6 +51,7 @@ button {
   color: white;
   padding: 10px 25px;
   font-weight: 200;
+  text-transform: uppercase;
   
 }
 
@@ -68,9 +70,9 @@ button {
 }
 
 .directions {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Oswald', sans-serif;
   text-indent: 50px;
-  
+  font-size: 18px;
 }
 
 #texture-box {

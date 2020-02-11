@@ -1,0 +1,22 @@
+#delicious-subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative;
+    top: -20px;
+    margin-left: 3px;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+#chocolate-pizza {
+    width: 100%;
+}
+
+#float-right {
+    float: right;
+}
+
