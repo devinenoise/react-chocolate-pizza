@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Oswald:300,700|Patrick+Hand|Yellowtail&display=swap');
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0 auto;
+  
+}
+
+header {    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.socials {
+  height: 24px;
+  width: 24px;
+  margin: 1px;
+}
+
+.delicious {
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
+  position: relative;
+  top: -10px; 
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+button {
+  border: 1px solid #b76d3c;
+  background-color: #b76d3c;
+  color: white;
+  padding: 10px 25px;
+  font-weight: 200;
+  
+}
+
+.footer {
+  text-align: center;
+  
+}
+
+.recipe {
+  font-family: 'Patrick Hand', cursive;
+  background-image: url('assets/list-bg.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 15px;
+}
+
+.directions {
+  font-family: 'Noto Serif', serif;
+  text-indent: 50px;
+  
+}
+
+#texture-box {
+  height: 13px;
+  width: 100%;
+  background-image: url('assets/hr-img.png');
+}
+
+.author {
+  margin-top: 20px;
+  
+}
