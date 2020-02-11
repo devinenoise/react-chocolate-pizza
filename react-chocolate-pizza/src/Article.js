@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Article extends Component {
   render() {
     return (
-    <div>
+    <div className="pizza">
     <img src={this.props.pizza} />
     <p styleName="directions">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and
         stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over

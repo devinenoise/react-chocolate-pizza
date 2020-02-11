@@ -6,6 +6,11 @@
   }
 }
 
+* {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -13,11 +18,6 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-* {
-  margin: 0 auto;
-  
 }
 
 header {    
@@ -59,12 +59,12 @@ button {
 }
 
 .recipe {
-  font-family: 'Patrick Hand', cursive;
   background-image: url('assets/list-bg.png');
   background-repeat: no-repeat;
-  width: 100%;
   margin-bottom: 40px;
-  padding: 15px;
+  background-size: cover;
+  margin-left: 100px;
+  
 }
 
 .directions {
@@ -82,4 +82,9 @@ button {
 .author {
   margin-top: 20px;
   
+}
+
+.item {
+  font-family: 'Patrick Hand';
+  padding: 5px;
 }
