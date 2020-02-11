@@ -9,6 +9,7 @@ import Recipe from "./Recipe.js"
 
 //style sheets
 import "./App.css"
+import "./style.css"
 
 
 //images
